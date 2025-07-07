@@ -63,4 +63,11 @@ x=[[1,2,3,4],[8],[4,5]]
 # result=sum(num for sublist in x for num in sublist)
 # print(result)
 
+ 
+def reverse_str(str:str):
+    if len(str)==0:
+        return ""
+    else:
+        return reverse_str(str[1:])+str[0]
 
+print(reverse_str("Shrikant"))
