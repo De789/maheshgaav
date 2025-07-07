@@ -84,3 +84,5 @@ name="sachin"
 reverse_name=reduce(lambda x,y:y+x,name)
 print(reverse_name)
 
+
+
