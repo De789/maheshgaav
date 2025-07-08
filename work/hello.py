@@ -79,10 +79,10 @@ x=[[1,2,3,4],[8],[4,5]]
 
 
 # by using functools:
-from functools import reduce
-name="sachin"
-reverse_name=reduce(lambda x,y:y+x,name)
-print(reverse_name)
+# from functools import reduce
+# name="sachin"
+# reverse_name=reduce(lambda x,y:y+x,name)
+# print(reverse_name)
 
 
 
