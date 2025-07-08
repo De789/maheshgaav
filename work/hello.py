@@ -64,10 +64,25 @@ x=[[1,2,3,4],[8],[4,5]]
 # print(result)
 
  
-def reverse_str(str:str):
-    if len(str)==0:
-        return ""
-    else:
-        return reverse_str(str[1:])+str[0]
+# def reverse_str(str:str):
+#     if len(str)==0:
+#         return ""
+#     else:
+#         return reverse_str(str[1:])+str[0]
 
-print(reverse_str("Shrikant"))
+# print(reverse_str("Shrikant"))
+# s=input("Enter the string: ")
+# reversed_str = ""
+# for char in s:
+#     reversed_str  = char +reversed_str 
+# print(reversed_str)
+
+
+# by using functools:
+from functools import reduce
+name="sachin"
+reverse_name=reduce(lambda x,y:y+x,name)
+print(reverse_name)
+
+
+

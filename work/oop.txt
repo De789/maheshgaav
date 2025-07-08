@@ -1,0 +1,6 @@
+✅ Use @classmethod when:
+You’re working with class-level data.
+You need alternative constructors.
+✅ Use @staticmethod when:
+No instance or class data is required.
+You want logically related functions inside the class.
